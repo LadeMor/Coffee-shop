@@ -13,6 +13,67 @@
     }
 
     .main-page-text{
+        top: 181px;
+        left: 385px;
         position: absolute;
+
+        h1{
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 58px;
+
+            color: #FFFFFF;
+
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .main-page-text-logo{
+
+            margin-bottom: 40px;
+            
+            #line{
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+            #coffee-beans{
+                margin-bottom: -10px;
+            }
+        }
+
+        p{
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 35px;
+
+            color: #FFFFFF;
+        }
+
+        button{
+            
+            width: 120px;
+            height: 30px;
+
+            box-sizing: border-box;
+            border: 1px solid #FFFFFF;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            border-radius: 3px;
+            background-color: #ffffff00;
+
+            .button-text{
+                font-family: 'Merienda';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #FFFFFF;
+            }
+
+        }
     }
 }
