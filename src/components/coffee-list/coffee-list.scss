@@ -1,0 +1,30 @@
+.our-best{
+    width: 1440px;
+    height: 495px;  
+    background-image: url('../../img/background-paper.png');
+
+    .our-best-title{
+        
+        padding-top: 80px;
+
+        h1{
+            font-family: 'Merienda';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 35px;
+            text-align: center;
+
+            color: #000000;
+        }
+    }
+
+    .our-best-list{
+        display: block;
+        margin: 0 auto;
+        width: 1440px;
+        height: 495px;
+
+        
+    }
+}

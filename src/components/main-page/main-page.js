@@ -1,5 +1,7 @@
 import { Component } from "react";
 
+import CoffeeList from "../coffee-list/coffee-list";
+
 import './main-page.scss';
 
 import backgroundimage from "../../img/background-desk.png";
@@ -14,20 +16,6 @@ class MainPage extends Component{
     render(){
 
         const {data} = this.props;
-
-        const coffeeList = data.map(item => {
-            return(
-                <div className="our-best-item" key={item.id}>
-                    <div className="our-best-item-image" style={{backgroundImage: `url(${item.image})`}}></div>
-                    <div className="our-best-item-title">
-                        <h4>{item.title}</h4>
-                    </div>
-                    <div className="our-best-item-price">
-                        <h4>{item.price}</h4>
-                    </div>
-                </div>
-            );
-        });
 
         return(
             <div className="main-page">
@@ -76,14 +64,7 @@ class MainPage extends Component{
                         </p>
                     </div>
                 </div>
-                <div className="our-best">
-                    <div className="our-best-title">
-                        <h1>Our best</h1>
-                    </div>
-                    <div className="our-best-list">
-                        {coffeeList}
-                    </div>
-                </div>
+                <CoffeeList data={data}/>
             </div>
         );
     }
