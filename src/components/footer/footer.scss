@@ -1,0 +1,64 @@
+.footer{
+    position: absolute;
+    width: 1440px;
+    
+    padding-top: 30px;
+
+    font-family:'Merienda';
+
+    .footer-nav{
+
+        display: block;
+        margin: 0 auto;
+        width: 405px;
+        height: 40px;
+       
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+    
+            li{
+                float: left;
+                padding: 15px;
+    
+                p{
+                    font-family: 'Merienda';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 17px;
+                    /* identical to box height */
+
+                    color: #000000;
+    
+                    img{
+                        margin-top:-50px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-logo{
+
+        margin-top: 40px;
+
+        .footer-logo-title{
+            display: block;
+            margin: 0 auto;
+            width: 210px;
+            margin-bottom: 40px;
+            #black-line{
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+    
+            #black-coffee-beans-tripple{
+                margin-bottom: -12px;
+            }
+        }
+    }
+    
+}

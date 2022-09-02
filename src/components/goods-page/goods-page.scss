@@ -1,0 +1,46 @@
+.container{
+    width: 1920px;
+
+    .goods-page{
+        .goods-page-header{
+            width: 1440px;
+            height: 260px;
+
+            .goods-page-header-title{
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                padding-top:100px;
+                h1{
+                    font-family: 'Merienda';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 58px;
+    
+                    color: #FFFFFF;
+                }
+            }
+
+            
+        }
+
+        .about-our-beans{
+            background: #FFFFFF;
+            width: 1440px;
+
+            .about-our-beans-info{
+
+                display: inline-block;
+                margin: 0 auto;
+    
+                .about-our-beans-pic{
+                    width: 272px;
+                    height: 355px;
+    
+                    filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+                }
+            }
+        }
+    }
+}

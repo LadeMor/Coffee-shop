@@ -9,7 +9,7 @@ import backgroundimage from "../../img/background-desk.png";
 import whiteline from '../../logos/white-line.png'
 import blackline from '../../logos/black-line.png'
 import whitecoffeebeanstripple from '../../logos/white-coffee-beans-tripple.png';
-import blackcoffeebeanstripple from '../../logos/black-coffee-beans-tripple.png'
+import blackcoffeebeanstripple from '../../logos/black-coffee-beans-tripple.png';
 
 class MainPage extends Component{
 

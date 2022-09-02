@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import Header from './components/header/header';
 import MainPage from './components/main-page/main-page';
+import GoodsPage from './components/goods-page/goods-page';
+import Footer from './components/footer/footer';
 
 import './App.scss';
 
@@ -41,7 +43,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <MainPage data={this.state.coffeeList}/>
+        {/* <MainPage data={this.state.coffeeList}/> */}
+        <GoodsPage/>
+        <Footer/>
       </div>
     );
   };
