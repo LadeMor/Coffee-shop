@@ -28,17 +28,130 @@
         .about-our-beans{
             background: #FFFFFF;
             width: 1440px;
+            display: block;
+            margin: 0 auto;
 
             .about-our-beans-info{
-
-                display: inline-block;
-                margin: 0 auto;
+                margin-left: 150px;
+                margin-top: 50px;
+                display: flex;
+                flex-wrap: wrap;
     
                 .about-our-beans-pic{
                     width: 272px;
                     height: 355px;
     
                     filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+                }
+
+                .about-our-beans-text{
+                    margin-left: 70px;
+                    text-align: center;
+                    width: 350px;
+                    h1{
+                        font-family: 'Merienda';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 35px;
+
+                        color: #000000;
+                    }
+
+                    p{
+                        margin-top: 40px;
+                        font-family: 'Merienda';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        text-align: center;
+
+                        color: #000000;
+                    }
+
+                    .about-our-beans-logo{
+                        #black-line{
+                            margin-left: 30px;
+                            margin-right: 30px;
+                        }
+
+                        #black-coffee-beans-tripple{
+                            margin-bottom: -10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .goods-page-black-line{
+            margin: 0 auto;
+            display: block;
+            width: 240px;
+            margin-top: 65px;
+            margin-left: 600px;
+        }
+
+        .goods-list{
+            margin: 0 auto;
+            display: block;
+            margin-top: 60px;
+            width: 730px;
+            margin-left: 400px;
+
+            form{
+
+                label{
+                    margin-right: 20px;
+                    font-family: 'Merienda';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    /* identical to box height */
+                    text-align: center;
+
+                    color: #000000;
+                }
+
+                input{
+                    margin-right: 83px;
+                    width: 180px;
+                    height: 30px;
+                    border: 1px solid #FFFFFF;
+                    background: #FFFFFF;
+                    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+                    border-radius: 4px;
+                    font-family: 'Merienda';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 17px;
+                    /* identical to box height */
+                    text-align: center;
+
+                    color: rgba(0, 0, 0, 0.5);
+                }
+
+                button{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    width: 75px;
+                    height: 30px;
+                    border: 1px solid #FFFFFF;
+                    background: #FFFFFF;
+                    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+                    border-radius: 4px 0px 0px 4px;
+                    font-family: 'Merienda';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 17px;
+                    /* identical to box height */
+                    text-align: center;
+
+                    color: #000000;
+
                 }
             }
         }
