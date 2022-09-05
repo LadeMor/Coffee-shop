@@ -9,6 +9,7 @@ import './App.scss';
 import coffeeitem1 from './img/coffee-item-1.png';
 import coffeeitem2 from './img/coffee-item-2.png';
 import coffeeitem3 from './img/coffee-item-3.png';
+import goodcoffeeitem from './img/goods-coffee-item.png';
 
 class App extends Component {
 
@@ -35,6 +36,50 @@ class App extends Component {
           title:'AROMISTICO Coffee 1 kg',
           price:'6.99$'
         },
+      ],
+      goodsList: [
+        {
+          id:1,
+          image: goodcoffeeitem,
+          title: 'AROMISTICO Coffee 1 kg',
+          country: 'Brazil',
+          price: '6.99$'
+        },
+        {
+          id:2,
+          image: goodcoffeeitem,
+          title: 'AROMISTICO Coffee 1 kg',
+          country: 'Kenya',
+          price: '6.99$'
+        },
+        {
+          id:3,
+          image: goodcoffeeitem,
+          title: 'AROMISTICO Coffee 1 kg',
+          country: 'Columbia',
+          price: '6.99$'
+        },
+        {
+          id:4,
+          image: goodcoffeeitem,
+          title: 'AROMISTICO Coffee 1 kg',
+          country: 'Columbia',
+          price: '6.99$'
+        },
+        {
+          id:5,
+          image: goodcoffeeitem,
+          title: 'AROMISTICO Coffee 1 kg',
+          country: 'Brazil',
+          price: '6.99$'
+        },
+        {
+          id:6,
+          image: goodcoffeeitem,
+          title: 'AROMISTICO Coffee 1 kg',
+          country: 'Kenya',
+          price: '6.99$'
+        },
       ]
     }
   }
@@ -44,7 +89,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         {/* <MainPage data={this.state.coffeeList}/> */}
-        <GoodsPage/>
+        <GoodsPage list={this.state.goodsList}/>
         <Footer/>
       </div>
     );

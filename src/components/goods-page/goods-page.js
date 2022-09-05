@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import GoodsPageList from "../goods-page-list/goods-page-list";
 import './goods-page.scss';
 
 import coffeeshop from '../../img/coffee-shop.png';
@@ -7,9 +7,13 @@ import girl from '../../img/girl.jpg';
 import blackline from '../../logos/black-line.png'
 import blackcoffeebeanstripple from '../../logos/black-coffee-beans-tripple.png';
 import blacklongline from '../../logos/black-long-line.png';
+import goodcoffeeitem from '../../img/goods-coffee-item.png';
 
 class GoodsPage extends Component{
     render(){
+
+        const {list} = this.props;
+
         return(
             <div className="container">
                 <div className="goods-page">
@@ -52,9 +56,7 @@ class GoodsPage extends Component{
                             <button>Kenya</button>
                             <button>Columbia</button>
                         </form>
-                        <div className="goods-list-items">
-
-                        </div>
+                        <GoodsPageList list={list}/>
                     </div>
                 </div>
             </div>
